@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="run" name="20140208_dropwizard_sample101">
+	<target description="run" name="run">
+		<java jar="target/20140208_dropwizard_sample101-1.0-SNAPSHOT.jar" fork="true">
+			<arg value="server" />
+			<arg value="hello-world.yml" />
+		</java>
+	</target>
+</project>
