@@ -73,13 +73,13 @@ Go to http://localhost:8080/ or to http://localhost:8080/admin with login admin/
 
 http://dev.classmethod.jp/server-side/java/dropwizard/
 
-cd 'F:\goat-pc-data\ecworkspace'
-mvn archetype:create -DgroupId=com.example -DartifactId=20140208_dropwizard_sample101
-cd 20140208_dropwizard_sample101
-mvn eclipse:eclipse
-Eclipse; Import; Project; F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101
-F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\pom.xml
-mvn eclipse:eclipse
+> cd 'F:\goat-pc-data\ecworkspace'
+> mvn archetype:create -DgroupId=com.example -DartifactId=20140208_dropwizard_sample101
+> cd 20140208_dropwizard_sample101
+> mvn eclipse:eclipse
+> Eclipse; Import; Project; F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101
+> F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\pom.xml
+> mvn eclipse:eclipse
 
 ## MavenでdependencyのソースとJavaDocをダウンロードする ##
 
@@ -101,8 +101,8 @@ http://onestopinfolink.wordpress.com/2009/05/17/maven%E3%81%A7dependency%E3%81%A
 >   </build>
 > </project>
 
-F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\pom.xml
-mvn eclipse:eclipse
+* F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\pom.xml
+    * mvn eclipse:eclipse
 
 ## Configurationクラスを作成 ##
 
