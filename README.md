@@ -73,13 +73,13 @@ Go to http://localhost:8080/ or to http://localhost:8080/admin with login admin/
 
 http://dev.classmethod.jp/server-side/java/dropwizard/
 
-> cd 'F:\goat-pc-data\ecworkspace'
-> mvn archetype:create -DgroupId=com.example -DartifactId=20140208_dropwizard_sample101
-> cd 20140208_dropwizard_sample101
-> mvn eclipse:eclipse
-> Eclipse; Import; Project; F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101
-> F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\pom.xml
-> mvn eclipse:eclipse
+* cd 'F:\goat-pc-data\ecworkspace'
+* mvn archetype:create -DgroupId=com.example -DartifactId=20140208_dropwizard_sample101
+* cd 20140208_dropwizard_sample101
+* mvn eclipse:eclipse
+* Eclipse; Import; Project; F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101
+* F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\pom.xml
+* mvn eclipse:eclipse
 
 ## MavenでdependencyのソースとJavaDocをダウンロードする ##
 
@@ -127,29 +127,27 @@ F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\src\main\java\com\exam
 > # mvn package
 > # java -jar target/20140208_dropwizard_sample101-1.0-SNAPSHOT.jar server hello-world.yml
 
-http://localhost:8080/hello-world
-{"id":3,"content":"Hello, Stranger!"}
-http://localhost:8080/hello-world?name=abc
-{"id":6,"content":"Hello, abc!"}
+* http://localhost:8080/hello-world
+    * {"id":3,"content":"Hello, Stranger!"}
+* http://localhost:8080/hello-world?name=abc
+    * {"id":6,"content":"Hello, abc!"}
 
-F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\build.xml
-に run target を記述した。
+* F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\build.xml に run target を記述した。
 
 ## git commit ##
 
-cd 'F:\goat-pc-data\ecworkspace\github'
-git clone https://github.com/tempest200903/20140208_dropwizard_sample101
-cp -r 'F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101' .
-cd 20140208_dropwizard_sample101
-git add .
-git commit -m "first commit"
-git push
-pushd 'F:\goat-pc-data\ecworkspace'
-mv 20140208_dropwizard_sample101 20140208_dropwizard_sample101-import
-git clone https://github.com/tempest200903/20140208_dropwizard_sample101
+* cd 'F:\goat-pc-data\ecworkspace\github'
+* git clone https://github.com/tempest200903/20140208_dropwizard_sample101
+* cp -r 'F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101' .
+* cd 20140208_dropwizard_sample101
+* git add .
+* git commit -m "first commit"
+* git push
+* pushd 'F:\goat-pc-data\ecworkspace'
+* mv 20140208_dropwizard_sample101 20140208_dropwizard_sample101-import
+* git clone https://github.com/tempest200903/20140208_dropwizard_sample101
 
 ## README ##
 
-F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\README.md
-に本メモを転記する。
+F:\goat-pc-data\ecworkspace\20140208_dropwizard_sample101\README.md に本メモを転記する。
 
